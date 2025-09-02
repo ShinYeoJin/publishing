@@ -1,0 +1,38 @@
+.box {
+  display: flex;
+}
+.product {
+  width: 130px;
+  text-align: left;
+  font-size: 6px;
+  font-weight: 600;
+}
+
+.image {
+  width: 130px;
+  height: 150px;
+  border: none;
+}
+
+.description {
+  text-align: left;
+  font-size: 7px;
+  font-weight: 400;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+.description2 {
+  text-align: left;
+  color: red;
+  font-size: 9px;
+  font-weight: 600;
+  margin-right: 5px;
+  display: inline;
+}
+
+.description3 {
+  font-size: 7px;
+  font-weight: 500;
+  display: inline;
+}

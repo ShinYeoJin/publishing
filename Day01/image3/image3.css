@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+}
+.ins {
+  width: 100px;
+  text-align: center;
+  margin-right: 50px;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 360px;
+  border: 2px solid purple;
+  padding: 5px;
+}

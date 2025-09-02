@@ -1,0 +1,42 @@
+.container {
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid red;
+}
+
+.box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.sky {
+  background-color: skyblue;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.z1 {
+  background-color: skyblue;
+  /* static : 기본 값임. */
+  /* relative(상대적) : 제자리에서 움지이도록 함. */
+  /* absolute(절대적) : 부모의 relative를 기준으로 삼아 움직임 */
+  /* 없으면 최종부모가 브라우저가 됨. */
+  z-index: 1;
+}
+
+.z2 {
+  bottom: 50px;
+  z-index: 2;
+}
+
+.z3 {
+  bottom: 100px;
+  z-index: 3;
+}
