@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "OngleebDaisy";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2508-2@1.0/Ownglyph_daisy-Rg.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  /* 1~6까지 코드는 폰트를 다운받겠다는 코드임. 이것을 적용하려는 곳에다 작성하면 문법적으로 맞지 않음
+  그리하여 먼저 다운 받은 폰트 코드를 적고 그 다음에 적용하려는 곳에다 다운받은 font-family:~ 을 
+  작성하면 됨. */
+}
+
+h1 {
+  font-family: "OngleebDaisy";
+}

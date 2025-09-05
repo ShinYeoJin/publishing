@@ -1,0 +1,54 @@
+section {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* 열 갯수와 너비 지정 , 5개 열을 지정하라는 뜻 */
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  /* 간격없이 화면을 채우기 위해 100% 작성 */
+  position: relative;
+}
+
+.box > .name {
+  color: white;
+  font-weight: bold;
+  right: 5px;
+  bottom: 5px;
+  position: absolute;
+}
+
+.box > .sub {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* width: 100%; ,height: 100%; 는 
+  보라색 박스 크기에 맞춰 copy 글을 넣기 위해 
+  width: 100%; ,height: 100%; = 즉 보라색 크기 따라 가라는 명령어가 필요함. 
+  그래서 width: 100%; ,height: 100%;를 작성하는 것.*/
+  opacity: 0;
+  transition: all 0.1s;
+}
+
+.box:hover > .sub {
+  opacity: 1;
+}
+
+.box > .sub > button {
+  border: 1px solid white;
+  padding: 20px 30px;
+  background-color: transparent;
+  /* background-color: transparent; 배경색을 투명하게 만든다는 뜻 */
+  color: white;
+}
+
+.box {
+  background-image: linear-gradient(rgb(205, 132, 241));
+}

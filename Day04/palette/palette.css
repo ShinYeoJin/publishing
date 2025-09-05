@@ -1,0 +1,11 @@
+section {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}

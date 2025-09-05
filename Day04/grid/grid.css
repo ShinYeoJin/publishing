@@ -1,0 +1,12 @@
+section {
+  display: grid;
+  /* grid는 자식을 행렬(엑셀판, 바둑판[16*16], 체스판)로 만들어줌. */
+  grid-template-columns: repeat(4, 1fr);
+  /* repeat(몇 줄, 1fr[1개]) */
+  gap: 10px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}

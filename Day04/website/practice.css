@@ -1,0 +1,44 @@
+/* header {
+  width: 100%;
+  background-color: skyblue;
+}
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 2px solid red;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+}
+
+nav > .links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  gap: 10px;
+}
+
+.links > button {
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.links > button:hover {
+  /* 버튼 하나씩 누를 떄마다 변경을 해야하기에  .links > button:hover 이 순서로 해야 함.
+    .links:hover > button 으로 하면 버튼 하나만 커서를 갖다 대어도 links 전체에 색 변화가 일어남.*/
+  background-color: #eeee;
+}
+
+.links > .ably {
+  color: red;
+} */

@@ -1,7 +1,7 @@
 .car {
   background-color: #f7f8fb;
-  width: 400px;
-  padding: 14px 20px 14px 20px;
+  width: 350px;
+  padding: 40x;
 }
 
 .car > h3 {
@@ -42,4 +42,38 @@
 .info > .option > .value {
   color: #7f7f7f;
   font-weight: 700;
+}
+
+.car > .interaction {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.car > .interaction > .make {
+  color: white;
+  font-weight: 700;
+  background-color: #002c5f;
+  border: none;
+  padding: 14px 26px 14px 26px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.car > .interaction > .navi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.car > .interaction > .navi > .circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background-color: #007fa8;
+  border: none;
 }

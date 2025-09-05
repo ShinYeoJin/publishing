@@ -1,0 +1,20 @@
+button {
+  padding: 11px 22px;
+  background-color: skyblue;
+  border-radius: 30px;
+  border: none;
+  transition: all 1s;
+}
+
+button > i {
+  color: yellow;
+}
+
+button > span {
+  color: white;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: darkblue;
+}
