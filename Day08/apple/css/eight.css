@@ -1,0 +1,317 @@
+.eight {
+  width: 100%;
+  height: 40vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+.eight > .eight__menu {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  padding-bottom: 46px;
+  gap: 20px;
+}
+
+.eight > .eight__menu > .eight__h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  color: #807e7e;
+  max-width: 1200px;
+  padding-bottom: 15px;
+}
+
+.eight > .eight__menu > .eight__h2 > strong {
+  color: black;
+}
+
+.eight > .eight__menu > .eight__menu__products {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+  gap: 40px;
+
+  position: relative;
+}
+
+.eight
+  > .eight__menu
+  > .eight__menu__products
+  > .eight__menu__products__contents1 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  background-image: url(../img/store-card-40-bts-edu-macbook-air-ipad-air-202503.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 30px;
+
+  transition: all 0.3s;
+  cursor: pointer;
+
+  padding: 10px;
+}
+
+.eight
+  > .eight__menu
+  > .eight__menu__products
+  > .eight__menu__products__contents1:hover {
+  transform: scale(1.1);
+}
+
+.eight
+  > .eight__menu
+  > .eight__menu__products
+  > .eight__menu__products__contents1
+  > .eight__menu__products__contents1__name {
+  font-size: 10px;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.eight
+  > .eight__menu
+  > .eight__menu__products
+  > .eight__menu__products__contents1
+  > .eight__menu__products__contents1__title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.eight
+  > .eight__menu
+  > .eight__menu__products
+  > .eight__menu__products__contents2 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  background-image: url(../img/store-card-40-refurb-202408_GEO_KR.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 30px;
+
+  transition: all 0.3s;
+  cursor: pointer;
+
+  padding: 10px;
+}
+
+.eight
+  > .eight__menu
+  > .eight__menu__products
+  > .eight__menu__products__contents2:hover {
+  transform: scale(1.1);
+}
+
+.eight
+  > .eight__menu
+  > .eight__menu__products
+  > .eight__menu__products__contents2
+  > .eight__menu__products__contents2__name {
+  font-size: 10px;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.eight
+  > .eight__menu
+  > .eight__menu__products
+  > .eight__menu__products__contents2
+  > .eight__menu__products__contents2__title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.eight
+  > .eight__menu
+  > .eight__menu__products
+  > .eight__menu__products__contents3 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  background-image: url(../img/store-card-40-business-202506.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 30px;
+
+  transition: all 0.3s;
+  cursor: pointer;
+
+  padding: 10px;
+}
+
+.eight
+  > .eight__menu
+  > .eight__menu__products
+  > .eight__menu__products__contents3:hover {
+  transform: scale(1.1);
+}
+
+.eight
+  > .eight__menu
+  > .eight__menu__products
+  > .eight__menu__products__contents3
+  > .eight__menu__products__contents3__name {
+  font-size: 10px;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: left;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+.eight
+  > .eight__menu
+  > .eight__menu__products
+  > .eight__menu__products__contents3
+  > .eight__menu__products__contents3__title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .eight {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 0px;
+  }
+
+  .eight > .eight__menu {
+    width: 100%;
+    max-height: fit-content;
+  }
+
+  .eight > .eight__menu > .eight__h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .eight > .eight__menu > .eight__menu__products {
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    max-height: fit-content;
+  }
+
+  .eight
+    > .eight__menu
+    > .eight__menu__products
+    > .eight__menu__products__contents1 {
+    width: 100%;
+    height: 100%;
+    min-width: 150px;
+    min-height: 150px;
+  }
+
+  .eight
+    > .eight__menu
+    > .eight__menu__products
+    > .eight__menu__products__contents1
+    > .eight__menu__products__contents1__name {
+    font-size: 13px;
+    padding-top: 10px;
+  }
+
+  .eight
+    > .eight__menu
+    > .eight__menu__products
+    > .eight__menu__products__contents1
+    > .eight__menu__products__contents1__title {
+    font-size: 10px;
+  }
+
+  .eight
+    > .eight__menu
+    > .eight__menu__products
+    > .eight__menu__products__contents2 {
+    width: 100%;
+    height: 100%;
+    min-width: 150px;
+    min-height: 150px;
+  }
+
+  .eight
+    > .eight__menu
+    > .eight__menu__products
+    > .eight__menu__products__contents2
+    > .eight__menu__products__contents2__name {
+    font-size: 13px;
+    padding-top: 10px;
+  }
+
+  .eight
+    > .eight__menu
+    > .eight__menu__products
+    > .eight__menu__products__contents2
+    > .eight__menu__products__contents2__title {
+    font-size: 10px;
+  }
+
+  .eight
+    > .eight__menu
+    > .eight__menu__products
+    > .eight__menu__products__contents3 {
+    width: 100%;
+    height: 100%;
+    min-width: 150px;
+    min-height: 150px;
+  }
+
+  .eight
+    > .eight__menu
+    > .eight__menu__products
+    > .eight__menu__products__contents3
+    > .eight__menu__products__contents3__name {
+    font-size: 13px;
+    padding-top: 10px;
+  }
+
+  .eight
+    > .eight__menu
+    > .eight__menu__products
+    > .eight__menu__products__contents3
+    > .eight__menu__products__contents3__title {
+    font-size: 10px;
+  }
+}

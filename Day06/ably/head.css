@@ -1,0 +1,40 @@
+head {
+  width: 100%;
+  top: 0%;
+  position: fixed;
+}
+
+head > nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+nav > ul > .menu {
+  display: none;
+  /* none : 존재 자체를 지움
+     opacity : 존재 하지만 투명도로 존재의 보임을 조절함. */
+}
+
+@media screen and (max-width: 900px) {
+  nav > ul {
+    display: none;
+  }
+
+  nav > ul > .menu {
+    justify-content: right;
+    display: block;
+  }
+}

@@ -1,0 +1,62 @@
+header {
+  width: auto;
+}
+
+header > .topbar {
+  height: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > .topbar > .topbar__log {
+  color: #292828;
+  font-family: "Yangjin";
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+header > .topbar > .topbar__log:hover {
+  cursor: pointer;
+}
+
+header > .topbar > .topbar__log::after {
+  content: "✨";
+}
+
+header > .topbar > .topbar__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+header > .topbar > .topbar__menu > li {
+  color: #292828;
+  font-family: "Yangjin";
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+header > .topbar > .topbar__menu > li:hover {
+  background-color: rgb(243, 245, 118);
+  color: #292828;
+}
+
+header > .topbar > .topbar__menu > .topbar__menu__summarize > i {
+  display: none;
+}

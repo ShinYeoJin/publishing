@@ -1,0 +1,279 @@
+.site-footer {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 22px;
+}
+
+.site-footer__legal {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.site-footer__legal > p {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #6e6e73; /* 애플 사이트의 푸터 문구 색상 */
+  margin: 0 0 12px;
+}
+
+.site-footer__legal > a {
+  color: #0066cc; /* 애플 푸터 링크 블루 */
+  text-decoration: none;
+}
+
+.site-footer__legal > a:hover {
+  text-decoration: underline;
+}
+
+.site-footer > .site-footer__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.site-footer > .site-footer__inner > .site-footer__inner__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.site-footer > .site-footer__inner > .site-footer__inner__menu > span {
+  font-size: 12px;
+}
+
+.site-footer > .site-footer__inner > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.site-footer > .site-footer__inner > div > section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px;
+}
+
+.site-footer > .site-footer__inner > div > section > .site-footer__inner__link {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.site-footer > .site-footer__inner > div section > .site-footer__inner__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-footer
+  > .site-footer__inner
+  > div
+  > section
+  > .site-footer__inner__link
+  > h4 {
+  font-size: 13px;
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+
+.site-footer
+  > .site-footer__inner
+  > div
+  > section
+  > .site-footer__inner__link
+  > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-footer
+  > .site-footer__inner
+  > div
+  > section
+  > .site-footer__inner__link
+  > ul
+  > li {
+  margin: 6px 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.site-footer
+  > .site-footer__inner
+  > div
+  > section
+  > .site-footer__inner__link
+  > ul
+  > li:hover {
+  text-decoration: underline;
+}
+
+.site-footer
+  > .site-footer__inner
+  > div
+  > section
+  > .site-footer__inner__link
+  > ul
+  > li
+  > a {
+  text-decoration: none;
+}
+
+.site-footer > .site-footer__call {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.site-footer > .site-footer__call > span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6e6e73;
+}
+
+.site-footer > .site-footer__call > span > b {
+  color: #0066cc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.site-footer > .end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.site-footer > .end > span {
+  font-size: 12px;
+  color: #6e6e73;
+}
+
+.site-footer > .end > .end__click {
+  width: 400px;
+  height: 100%;
+}
+
+.site-footer > .end > .end__click > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.site-footer > .end > .end__click > ul > li {
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.site-footer > .end > .end__click > ul > li:hover {
+  text-decoration: underline;
+}
+
+.site-footer > .end > .end__korea {
+  font-size: 12px;
+  color: #6e6e73;
+  cursor: pointer;
+}
+
+.site-footer > .end > .end__korea:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .site-footer > .site-footer__inner > div {
+    flex-direction: column;
+  }
+
+  .site-footer > .site-footer__inner > div > section {
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin: 0;
+  }
+
+  .site-footer
+    > .site-footer__inner
+    > div
+    > section
+    > .site-footer__inner__link {
+    margin-bottom: 0;
+  }
+
+  .site-footer
+    > .site-footer__inner
+    > div
+    > section
+    > .site-footer__inner__link
+    > h4 {
+    font-weight: 400;
+  }
+
+  .site-footer
+    > .site-footer__inner
+    > div
+    > section
+    > .site-footer__inner__link
+    > ul {
+    display: none;
+  }
+
+  .site-footer > .site-footer__call {
+    font-size: 10px;
+    text-align: left;
+  }
+
+  .site-footer > .site-footer__call > span {
+    margin-top: 20px;
+  }
+
+  .site-footer > .end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .site-footer > .end > .end__click > ul {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 3;
+  }
+}

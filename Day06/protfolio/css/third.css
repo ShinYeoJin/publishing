@@ -1,0 +1,55 @@
+.third {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf8f8;
+}
+
+.third > .third__contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.third > .third__contents > .third__contents__title {
+  font-family: "MitmiFont";
+  text-align: center;
+  font-size: 75px;
+  font-weight: 600;
+  color: black;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.third > .third__contents > .third__contents__title::after {
+  content: "💻";
+}
+
+.third > .third__contents > .third__contents__box {
+  width: 800px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.third > .third__contents > .third__contents__box > button {
+  border: none;
+  border-radius: 15px;
+  background-color: blanchedalmond;
+  color: black;
+  font-family: "MitmiFont";
+  font-size: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.third > .third__contents > .third__contents__box > button:hover {
+  transform: scale(1.2);
+}

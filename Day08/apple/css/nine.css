@@ -1,0 +1,80 @@
+.nine {
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nine > .nine__menu {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.nine > .nine__menu > .nine__h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  max-width: 1200px;
+  padding-bottom: 15px;
+}
+
+.nine > .nine__menu > .nine__menu__buttons {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.nine > .nine__menu > .nine__menu__buttons > li {
+  border: 1px solid #1d1d1f;
+  border-radius: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 8px 15px;
+  font-size: 17px;
+}
+
+.nine > .nine__menu > .nine__menu__buttons > li:hover {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .nine {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 0px;
+  }
+
+  .nine > .nine__menu {
+    width: 100%;
+    max-height: fit-content;
+  }
+
+  .nine > .nine__menu > .nine__h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .nine > .nine__menu > .nine__menu__buttons {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .nine > .nine__menu > .nine__menu__buttons > li {
+    padding: 7px;
+    font-size: 10px;
+  }
+}

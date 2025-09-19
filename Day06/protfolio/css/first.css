@@ -1,0 +1,29 @@
+.first {
+  height: 80vh;
+  width: auto;
+  background-image: url(../image/star.jpg);
+  background-size: cover;
+  background-position: 50% 40%;
+}
+
+.first > .first__contents {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first > .first__contents > .first__title {
+  font-family: "GangwonEducationModuche";
+  font-size: 65px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  /* line-height: 1.25;
+  margin-top: 15px;
+  z-index: 2; */
+}

@@ -1,0 +1,84 @@
+.second {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf8f8;
+}
+
+.second > .second__contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second > .second__contents > .second__contents__title {
+  font-family: "MitmiFont";
+  text-align: center;
+  font-size: 75px;
+  font-weight: 600;
+  color: black;
+  padding-top: 50px;
+}
+
+.second > .second__contents > .second__self-introduction {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 100px;
+  padding-top: 30px;
+}
+
+.second
+  > .second__contents
+  > .second__self-introduction
+  > .second__self-introduction__card {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  border: none;
+  background-color: rgb(228, 242, 250);
+  border-radius: 13px;
+}
+
+.second
+  > .second__contents
+  > .second__self-introduction
+  > .second__self-introduction__card
+  > i {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.second
+  > .second__contents
+  > .second__self-introduction
+  > .second__self-introduction__card
+  > span {
+  font-family: "MitmiFont";
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 2;
+  color: rgb(157, 151, 247);
+}
+
+.second
+  > .second__contents
+  > .second__self-introduction
+  > .second__self-introduction__card
+  > p {
+  font-family: "MitmiFont";
+  font-size: 23px;
+  text-align: center;
+}

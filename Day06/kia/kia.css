@@ -1,0 +1,53 @@
+.contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.contents > .menu {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: none;
+  border-radius: 12px;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.contents > .menu > span {
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+/* 태블릿, 모바일 버전 */
+@media screen and (max-width: 768px) {
+  section > .contents {
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contents > .menu {
+    width: 100%;
+    height: auto;
+  }
+
+  .contents > .menu > span {
+    font-size: 15px;
+  }
+}
